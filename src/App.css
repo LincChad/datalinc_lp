@@ -1,0 +1,42 @@
+
+.body
+{
+    background-image:url('/bg-color.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.link-underline {
+    border-bottom-width: 0;
+    background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+    background-size: 0 3px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size .5s ease-in-out;
+}
+
+.link-underline-black {
+    background-image: linear-gradient(transparent, transparent), linear-gradient(rgb(34, 163, 255), rgb(0, 157, 255))
+}
+
+.link-underline:hover {
+    background-size: 100% 3px;
+    background-position: 0 100%
+} 
+
+
+.graphics-container .graphics[data-v-10c88e8c] {
+  width: 900%;
+  margin: 0 auto -420% -440%;
+}
+
+.graphics-container .graphics[data-v-10c88e8c] {
+  position: absolute;
+  height: auto;
+  bottom: 0;
+  width: 200%;
+  margin-bottom: -97%;
+  margin-left: -93%;
+  max-width: 154rem;
+  min-width: 40rem;
+}
