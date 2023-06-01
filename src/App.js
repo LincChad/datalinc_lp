@@ -28,7 +28,7 @@ function App() {
         <button className="ml-4 inline-flex text-gray-700 hover:text-white bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-white/40 rounded text-lg font-balginBold font-bold hover:scale-110 transition-all">Explore More</button>
       </div> */}
     </div>
-    <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+    <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:container mx-auto"> 
       <Logo />
     </div>
   </div>
